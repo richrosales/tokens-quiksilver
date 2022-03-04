@@ -1,9 +1,8 @@
 {
-    "name": "my-app",
+    "name": "quiksilver",
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        // "build-transform-default": "npx token-transformer tokens.json tokens/default.json global,default,theme global",
         "build-transform-default": "npx token-transformer tokens.json tokens/default.json global,quiksilver global",
         "build-transform": "npm run build-transform-default",
         "build-sd": "node build.js",
